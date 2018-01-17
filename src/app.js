@@ -8,7 +8,6 @@ import expressValidator  from 'express-validator';
 import enableRoutes from './api';
 import config from './api/config';
 import {BAD_REQUEST_CODE} from "./api/config/status-codes";
-import {ServiceUnavailable} from "./api/errors";
 
 class Application {
     app;
@@ -81,7 +80,7 @@ class Application {
         this.app.use((err, req, res, next) => {
             let status = err.status || BAD_REQUEST_CODE;
 
-            return res.status (status).json({
+            return res.status(status).json({
                 status: status,
                 data: null,
                 message: err.message || '',

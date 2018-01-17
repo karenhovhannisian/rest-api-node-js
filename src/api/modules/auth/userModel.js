@@ -69,15 +69,12 @@ UserModel.prototype.Signin = async function(email, password, remember = false){
 				};
 			} else {
 				throw new BadRequest('Invalid email or password');
-				return false;
 			}
 		} else {
 			throw new BadRequest('Invalid email or password');
-			return false;
 		}
 	} catch (error) {
 		throw error;
-		return false;
 	}
 };
 
