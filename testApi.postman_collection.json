@@ -1,0 +1,318 @@
+{
+	"id": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+	"name": "testApi",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "d257eda0-a577-5200-819f-031baa293b45",
+			"name": "auth",
+			"description": "",
+			"order": [
+				"f6bad8f1-a455-105d-1627-68318afdf4af",
+				"763a314a-f706-6f55-f583-959aa11122cd"
+			],
+			"folders_order": [],
+			"owner": "544192",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662"
+		},
+		{
+			"id": "d50dab78-0fde-3a1b-ec72-f240051626e4",
+			"name": "users",
+			"description": "",
+			"order": [
+				"1ea35b6c-0372-9103-09e1-cd418021786b",
+				"2560c84a-4937-f821-db00-a8b537ce463d",
+				"dd35961e-141b-f758-c51b-81d79a348b1c",
+				"b45b664e-ff4a-f6a6-943c-d22a40b18e8e",
+				"962e4639-a0c6-ffb1-559b-4cbe49847066"
+			],
+			"folders_order": [],
+			"owner": "544192",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662"
+		}
+	],
+	"folders_order": [
+		"d50dab78-0fde-3a1b-ec72-f240051626e4",
+		"d257eda0-a577-5200-819f-031baa293b45"
+	],
+	"timestamp": 0,
+	"owner": "544192",
+	"public": false,
+	"requests": [
+		{
+			"id": "1ea35b6c-0372-9103-09e1-cd418021786b",
+			"headers": "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNWQyMmI1ZGNlYzBiMTgyM2JkNjUxNSIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiODEyNTcyMGJkMWVhMjdlNTAxYTJkNmU0ODZjZDYyZTc4MTlhZWY4NyIsImFkZHJlc3MiOiJrYXJlbkBnbWFpbC5jb20ifSwiaWF0IjoxNTE2MDU0NDMwLCJleHAiOjE1MTYxNDA4MzB9.Hb0ZOjfjuMLI5G9XLjgQLvT33mY-cFuN0kPCuM8yC2Y\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNWQyMmI1ZGNlYzBiMTgyM2JkNjUxNSIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiODEyNTcyMGJkMWVhMjdlNTAxYTJkNmU0ODZjZDYyZTc4MTlhZWY4NyIsImFkZHJlc3MiOiJrYXJlbkBnbWFpbC5jb20ifSwiaWF0IjoxNTE2MDU0NDMwLCJleHAiOjE1MTYxNDA4MzB9.Hb0ZOjfjuMLI5G9XLjgQLvT33mY-cFuN0kPCuM8yC2Y",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/users/5a5d22b5dcec0b1823bd6515",
+			"folder": "d50dab78-0fde-3a1b-ec72-f240051626e4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "currentpassword",
+					"value": "248918",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516054547105,
+			"name": "DeleteUser/:id",
+			"description": "",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"responses": []
+		},
+		{
+			"id": "2560c84a-4937-f821-db00-a8b537ce463d",
+			"name": "Update User/:id",
+			"description": "",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"method": "PUT",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNTg2NTc0NzA4ZmNiM2YwYTQwNGRhMCIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiZDM5NDJkY2U1ODlhOGJhZjg3OWJlMDFiNzE3MTg0NzEyYjExOWE3MiIsImFkZHJlc3MiOiJhZG1pbkBhZG1pbi5jb20ifSwiaWF0IjoxNTE1NzQyNjYyLCJleHAiOjE1MTU4MjkwNjJ9.bwizZPIA9wouYE7C1V1AKrefrJyjk7YaHeBzgNheln4\nContent-Type: application/x-www-form-urlencoded",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:3000/api/users/5a577c305a580b05c1a938c8",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNTg2NTc0NzA4ZmNiM2YwYTQwNGRhMCIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiZDM5NDJkY2U1ODlhOGJhZjg3OWJlMDFiNzE3MTg0NzEyYjExOWE3MiIsImFkZHJlc3MiOiJhZG1pbkBhZG1pbi5jb20ifSwiaWF0IjoxNTE1NzQyNjYyLCJleHAiOjE1MTU4MjkwNjJ9.bwizZPIA9wouYE7C1V1AKrefrJyjk7YaHeBzgNheln4",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"collection_id": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"folder": "d50dab78-0fde-3a1b-ec72-f240051626e4"
+		},
+		{
+			"id": "763a314a-f706-6f55-f583-959aa11122cd",
+			"name": "sign-in",
+			"description": "",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "email",
+					"value": "test@test.com",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "248918",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"url": "http://localhost:3000/api/auth/sign-in",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"collection_id": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"folder": "d257eda0-a577-5200-819f-031baa293b45"
+		},
+		{
+			"id": "962e4639-a0c6-ffb1-559b-4cbe49847066",
+			"name": "getAllUsers",
+			"description": "",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"method": "GET",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNTg2NTc0NzA4ZmNiM2YwYTQwNGRhMCIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiZDM5NDJkY2U1ODlhOGJhZjg3OWJlMDFiNzE3MTg0NzEyYjExOWE3MiIsImFkZHJlc3MiOiJhZG1pbkBhZG1pbi5jb20ifSwiaWF0IjoxNTE1NzQyNjYyLCJleHAiOjE1MTU4MjkwNjJ9.bwizZPIA9wouYE7C1V1AKrefrJyjk7YaHeBzgNheln4",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:3000/api/users/",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNTg2NTc0NzA4ZmNiM2YwYTQwNGRhMCIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiZDM5NDJkY2U1ODlhOGJhZjg3OWJlMDFiNzE3MTg0NzEyYjExOWE3MiIsImFkZHJlc3MiOiJhZG1pbkBhZG1pbi5jb20ifSwiaWF0IjoxNTE1NzQyNjYyLCJleHAiOjE1MTU4MjkwNjJ9.bwizZPIA9wouYE7C1V1AKrefrJyjk7YaHeBzgNheln4",
+					"description": ""
+				}
+			],
+			"collection_id": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"folder": "d50dab78-0fde-3a1b-ec72-f240051626e4"
+		},
+		{
+			"id": "b45b664e-ff4a-f6a6-943c-d22a40b18e8e",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNWQyMmI1ZGNlYzBiMTgyM2JkNjUxNSIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiODEyNTcyMGJkMWVhMjdlNTAxYTJkNmU0ODZjZDYyZTc4MTlhZWY4NyIsImFkZHJlc3MiOiJrYXJlbkBnbWFpbC5jb20ifSwiaWF0IjoxNTE2MDU0NDMwLCJleHAiOjE1MTYxNDA4MzB9.Hb0ZOjfjuMLI5G9XLjgQLvT33mY-cFuN0kPCuM8yC2Y\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNWQyMmI1ZGNlYzBiMTgyM2JkNjUxNSIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiODEyNTcyMGJkMWVhMjdlNTAxYTJkNmU0ODZjZDYyZTc4MTlhZWY4NyIsImFkZHJlc3MiOiJrYXJlbkBnbWFpbC5jb20ifSwiaWF0IjoxNTE2MDU0NDMwLCJleHAiOjE1MTYxNDA4MzB9.Hb0ZOjfjuMLI5G9XLjgQLvT33mY-cFuN0kPCuM8yC2Y",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/users/5a5d22b5dcec0b1823bd6515",
+			"folder": "d50dab78-0fde-3a1b-ec72-f240051626e4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1516054545129,
+			"name": "GetUsers/:id",
+			"description": "",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"responses": []
+		},
+		{
+			"id": "dd35961e-141b-f758-c51b-81d79a348b1c",
+			"name": "Create User",
+			"description": "",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"method": "POST",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNTg2NTc0NzA4ZmNiM2YwYTQwNGRhMCIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiZDM5NDJkY2U1ODlhOGJhZjg3OWJlMDFiNzE3MTg0NzEyYjExOWE3MiIsImFkZHJlc3MiOiJhZG1pbkBhZG1pbi5jb20ifSwiaWF0IjoxNTE1NzQyNjYyLCJleHAiOjE1MTU4MjkwNjJ9.bwizZPIA9wouYE7C1V1AKrefrJyjk7YaHeBzgNheln4\nContent-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "firstName",
+					"value": "test",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "lastName",
+					"value": "test",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "email",
+					"value": "test1@test.com",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "phone",
+					"value": "2222222222222222",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"url": "http://localhost:3000/api/users/",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhNTg2NTc0NzA4ZmNiM2YwYTQwNGRhMCIsImVtYWlsIjp7ImNvbmZpcm1fa2V5IjoiZDM5NDJkY2U1ODlhOGJhZjg3OWJlMDFiNzE3MTg0NzEyYjExOWE3MiIsImFkZHJlc3MiOiJhZG1pbkBhZG1pbi5jb20ifSwiaWF0IjoxNTE1NzQyNjYyLCJleHAiOjE1MTU4MjkwNjJ9.bwizZPIA9wouYE7C1V1AKrefrJyjk7YaHeBzgNheln4",
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"collection_id": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"folder": "d50dab78-0fde-3a1b-ec72-f240051626e4"
+		},
+		{
+			"id": "f6bad8f1-a455-105d-1627-68318afdf4af",
+			"name": "signup",
+			"description": "",
+			"collectionId": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"method": "POST",
+			"headers": "Content-Type: application/x-www-form-urlencoded",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "firstName",
+					"value": "firstName",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "lastName",
+					"value": "lastName",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "email",
+					"value": "test@tjest.com",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "phone",
+					"value": "37455855771",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "248918",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"rawModeData": "",
+			"url": "http://localhost:3000/api/auth/sign-up",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": ""
+				}
+			],
+			"collection_id": "defe25ef-84ff-0eb6-4888-c49aa246b662",
+			"folder": "d257eda0-a577-5200-819f-031baa293b45"
+		}
+	]
+}

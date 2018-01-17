@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+dist/
+
+nohup.out
+npm-debug.log
+
+.DS_Store
+.DS_Store?
